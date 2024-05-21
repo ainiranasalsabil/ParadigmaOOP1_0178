@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{731f604e-4857-4ff5-a1dc-34929a439d83}</ProjectGuid>
-    <RootNamespace>Pewarisan</RootNamespace>
+    <ProjectGuid>{118a9a0c-9c0f-489d-9fba-3e774c67d01d}</ProjectGuid>
+    <RootNamespace>program2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Pewarisan</ProjectName>
+    <ProjectName>compotition</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Pewarisan.cpp" />
+    <ClCompile Include="compotition.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jantung.h" />
+    <ClInclude Include="manusia.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
